@@ -1,14 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project1</title>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="class">
-        <div>Hello, World1</div>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="container__header">
+                    <div class="logo">Tatyana Chaplinskaya</div>
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                    <nav class="menu__header">
+                        <ul class="menu__list">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section class="about">
+            <div class="container__about">
+                <div class="about__text">
+                    <p>Hi! I am Tatyana Chaplinskaya,<br>Frontend developer<br><span>from Kyiv Ukraine</span></p>
+                </div>
+                <div class="about__photo">
+                    <img src="img/tata.jpg">
+                </div>
+            </div>
+        </section>
+        <section class="about__me">
+            <div class="container__about_me">
+                <h2>About me</h2>
+                <p>Front End Development is building out the visual components of a website. Using HTML, CSS , and Javascript, I build fast, interactive websites. My experience as a layout designer is over 3 years. I used to teach engineering and computer graphics at the university, I am constantly learning and really want to improve my knowledge. I work as a freelancer. I also work as a mother and I have two wonderful sons.</p>
+            </div>
+        </section>
+        <section class="portfolio">
+            <h2>My Portfolio</h2>
+            
+
+            <div class="slider">
+                <div class="slider__item">
+                    <img src="img/1.jpg">
+                </div>
+                <div class="slider__item">
+                    <img src="img/2.jpg">
+                </div>
+                <div class="slider__item">
+                    <img src="img/3.jpg">
+                </div>
+                <div class="slider__item">
+                    <img src="img/4.jpg">
+                </div>
+                <div class="slider__item">
+                    <img src="img/5.jpg">
+                </div>
+                <div class="slider__item">
+                    <img src="img/6.jpg">
+                </div>
+                <div class="slider__item">
+                    <img src="img/7.jpg">
+                </div>
+                <div class="slider__item">
+                    <img src="img/8.jpg">
+                </div>
+            </div>
+
+            
+        </section>
     </div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script type="text/javascript" src="js/myslick.js"></script>
 </body>
 </html>
