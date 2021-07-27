@@ -75,7 +75,7 @@ p {
 @media (max-width: 767px) {
   .logo {
     font-size:  16px;
-    line-heigsht: 16px;
+    line-height: 16px;
   }
 }
 a {
@@ -142,8 +142,6 @@ header:before {
   z-index: 3;
 }
 .wrapper {
-    -width: 1400px;
-  -max-width: 100%;
   display: flex;
   overflow: hidden;
   flex-direction: column;
@@ -410,3 +408,6 @@ button.slick-arrow {
   .portfolio {
     margin-bottom: 50px;
   }
+.photo__portfolio {
+  display: flex;
+}
