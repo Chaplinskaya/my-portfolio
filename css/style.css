@@ -416,6 +416,7 @@ button.slick-arrow {
   justify-items: center;
 }
 .photo__item5 {
-    grid-row-start: 5;
+  grid-column-start: 3;  
+  grid-row-start: 5;
     grid-row-end: 10;
 }
