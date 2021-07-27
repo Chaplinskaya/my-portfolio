@@ -418,18 +418,22 @@ button.slick-arrow {
 .photo__item1 {  
   grid-row-start: 1;
   grid-row-end: 10;
+  grid-column-start: 1;
 }
 .photo__item2 {  
   grid-row-start: 1;
   grid-row-end: 6;
+  grid-column-start: 2;
 }
 .photo__item3 {  
   grid-row-start: 1;
   grid-row-end: 5;
+  grid-column-start: 3;
 }
 .photo__item4 {  
   grid-row-start: 1;
   grid-row-end: 8;
+  grid-column-start: 4;
 }
 .photo__item5 {
   grid-row-start: 3;
