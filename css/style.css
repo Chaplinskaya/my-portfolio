@@ -415,7 +415,23 @@ button.slick-arrow {
   row-gap: 10px;
   justify-items: center;
 }
+.photo__item1 {  
+  grid-row-start: 1;
+  grid-row-end: 10;
+}
+.photo__item2 {  
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+.photo__item3 {  
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+.photo__item4 {  
+  grid-row-start: 1;
+  grid-row-end: 8;
+}
 .photo__item5 {
-  grid-column-start: 3;  
   grid-row-start: 3;
+  grid-column-start: 3;  
 }
