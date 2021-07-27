@@ -415,6 +415,9 @@ button.slick-arrow {
   row-gap: 10px;
   justify-items: center;
 }
+.photo__item {
+    border: 1px solid #f1f1f1;
+}
 .photo__item1 {  
   grid-row-start: 1;
   grid-row-end: 10;
