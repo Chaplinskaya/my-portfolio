@@ -417,6 +417,5 @@ button.slick-arrow {
 }
 .photo__item5 {
   grid-column-start: 3;  
-  grid-row-start: 5;
-    grid-row-end: 10;
+  grid-row-start: 3;
 }
