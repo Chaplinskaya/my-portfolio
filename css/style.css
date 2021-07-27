@@ -409,5 +409,13 @@ button.slick-arrow {
     margin-bottom: 50px;
   }
 .photo__portfolio {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap:  10px;
+  row-gap: 10px;
+  justify-items: center;
+}
+.photo__item5 {
+    grid-row-start: 5;
+    grid-row-end: 10;
 }
