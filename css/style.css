@@ -443,3 +443,8 @@ button.slick-arrow {
   grid-row-start: 5;
   grid-column-start: 3;  
 }
+.photo__item6 {
+  grid-row-start: 6;
+  grid-row-end: 7;
+  grid-column-start: 2;  
+}
